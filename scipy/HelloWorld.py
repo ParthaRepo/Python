@@ -6,7 +6,8 @@ print("Hello ", name)
 if name == 'partha':
     print("Nice to hear back from you. partha!!!")
 elif name == 'Partha':
-    print("Nice to hear back from you. Partha!!!")
+    print("Nice to hear back from you. ", end='')
+    print(name)
 else:
     print("How are you?")
 # for loop
